@@ -35,11 +35,11 @@ export default function PageCadastro(){
                     <form onSubmit={handleSubmit}>
                     <label>
                     Name:
-                    <input type='text'name="name" value={values.name} onChange={dadosChange} />
+                    <input type='text'name="name" value={values.name} required onChange={dadosChange} />
                     </label>
                     <label>
                     Descrição:
-                    <input type='text' name="description" value={values.description} onChange={dadosChange} />
+                    <input type='text' name="description" required value={values.description} onChange={dadosChange} />
                     </label>
     
                     <button type="submit">Salvar</button>
