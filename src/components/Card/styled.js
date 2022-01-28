@@ -10,6 +10,11 @@ export const ContainerCard = styled.div`
     height: 23rem;
     text-align: center;
     padding: 25px 10px ;
+    button{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
 `;
 export const ImgCard = styled.img`
     height: 6.25rem;

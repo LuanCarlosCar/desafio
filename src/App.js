@@ -1,9 +1,13 @@
+import { ListProvider } from "./providers/ListProvider";
 import AppRouter from "./routes/AppRouter";
 
 
 function App() {
   return (
-    <AppRouter />
+    <ListProvider >
+       <AppRouter />
+    </ListProvider>
+   
   );
 }
 
